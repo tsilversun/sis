@@ -76,9 +76,9 @@
                         <tbody id="tbl" class="text-center">
                             <tr v-for="stud in studs">
                                 <td>{no.}</td>
-                                <td>{{date created}}</td>
-                                <td>{{Course}}</td>
-                                <td>{{desc}}</td>
+                                <td>date created</td>
+                                <td>Course</td>
+                                <td>desc</td>
                                 <td>
                                     <div class="dropdown">
                                         <button class="btn border dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">

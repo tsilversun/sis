@@ -78,10 +78,10 @@
                         <tbody id="tbl" class="text-center">
                             <tr v-for="stud in studs">
                                 <td>{no.}</td>
-                                <td width="50" height="40">{{pic}}</td>
-                                <td>{{Fname, Lname}}</td>
-                                <td>{{email }}</td>
-                                <td>{{usertype }}</td>
+                                <td width="50" height="40">pic</td>
+                                <td>Fname, Lname</td>
+                                <td>email </td>
+                                <td>usertype </td>
             
                                 <td>
                                     <div class="dropdown">

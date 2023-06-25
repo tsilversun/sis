@@ -110,9 +110,9 @@
                                     <small><span class="">{Sem}</span></small><br>
                                     <small><span class="">{SY}</span></small>
                                 </td>                               
-                                <td>{{ yr }}</td>
-                                <td>{{ beg stat }}</td>
-                                <td>{{ end stst }}</td>
+                                <td> yr </td>
+                                <td> beg stat </td>
+                                <td> end stst </td>
                                 <td>
                                     <div class="dropdown">
                                         <button class="btn border dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">

@@ -73,11 +73,11 @@
                         </thead>
                         <tbody id="tbl" class="text-center">
                             <tr v-for="stud in studs">
-                                <td>{no.}</td>
-                                <td>{{date created }}</td>
-                                <td>{{Student id }}</td>
-                                <td>{{ Lname, Fname Mname }}</td>
-                                <td>{{ stat }}</td>
+                                <td>no.</td>
+                                <td>date created </td>
+                                <td>Student id </td>
+                                <td> Lname, Fname Mname </td>
+                                <td> stat </td>
                                 
                                 <td>
                                     <a class="btn btn-light " href="./Student/StDetails.html" role="button">View</a>
