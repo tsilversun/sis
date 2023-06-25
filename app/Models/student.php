@@ -15,4 +15,5 @@ class student extends Model
     {
         return $this->hasOne(course::class, 'owned_degree');
     }
+    
 }
