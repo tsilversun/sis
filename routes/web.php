@@ -1,5 +1,9 @@
 <?php
 
+use App\Http\Controllers\StudentController;
+use app\Models\student;
+use App\Models\course;
+use App\Models\User;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -12,6 +16,8 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+
+Route::get('/index', [StudentController::class, 'student']);
 
 Route::get('/', function () {
     return view('welcome');

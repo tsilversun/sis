@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 /**
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\student>
  */
-class studentFactory extends Factory
+class StudentFactory extends Factory
 {
     /**
      * Define the model's default state.
@@ -25,7 +25,6 @@ class studentFactory extends Factory
             'Birthday' => $this->faker->dateTimeThisCentury()->format('Y-m-d'),
             'Email' => $this->faker->email(),
             'Address' => $this->faker->address(),
-
         ];
     }
 }
