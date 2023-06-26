@@ -8,6 +8,7 @@ use App\Models\student;
 use App\Models\course;
 use Illuminate\Database\Seeder;
 
+
 class DatabaseSeeder extends Seeder
 {
     /**
@@ -25,6 +26,8 @@ class DatabaseSeeder extends Seeder
             ]);
             # code...
         }
+        
+
         // \App\Models\User::factory(10)->create();
 
         // \App\Models\User::factory()->create([

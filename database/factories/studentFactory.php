@@ -19,10 +19,10 @@ class studentFactory extends Factory
         return [
             //
             'Firstname' => $this->faker->name(),
-            'Middlename' => $this->faker->middlename(),
-            'Lastname' => $this->faker->surname(),
-            'Gender' => $this->faker->gender(),
-            'Birthday' => $this->faker->birthdate(),
+            'Middlename' => $this->faker->firstName(),
+            'Lastname' => $this->faker->lastName(),
+            'Gender' => $this->faker->randomElement(['male', 'female']),
+            'Birthday' => $this->faker->dateTimeThisCentury()->format('Y-m-d'),
             'Email' => $this->faker->email(),
             'Address' => $this->faker->address(),
 

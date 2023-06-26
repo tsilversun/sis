@@ -18,7 +18,7 @@ class CourseFactory extends Factory
     {
         return [
             //
-            'batchelor' =>fake()->batchelorDegree()
+            'bachelor'=> $this->faker->randomElement(['BSIT', 'BSED', 'BSHM', 'BEED']),
         ];
     }
 }
