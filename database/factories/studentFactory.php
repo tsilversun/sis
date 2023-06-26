@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 /**
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\student>
  */
-class studentFactory extends Factory
+class StudentFactory extends Factory
 {
     /**
      * Define the model's default state.
@@ -18,14 +18,12 @@ class studentFactory extends Factory
     {
         return [
             //
-            'Firstname' => $this->faker->name(),
-            'Middlename' => $this->faker->middlename(),
-            'Lastname' => $this->faker->surname(),
-            'Gender' => $this->faker->gender(),
-            'Birthday' => $this->faker->birthdate(),
-            'Email' => $this->faker->email(),
-            'Address' => $this->faker->address(),
-
+            'firstname' => $this->faker->name(),
+            'lastname' => $this->faker->name(),
+            'gender' => $this->faker->randomElements(['male', 'female']),
+            'birth' => $this->faker->date(),
+            'email' => $this->faker->email(),
+            'location' => $this->faker->address()
         ];
     }
 }

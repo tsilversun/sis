@@ -15,11 +15,11 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        user::factory(5)->create();
+        user::factory(1)->create();
 
-        $student = student::factory(10)->create();
+        $students = student::factory(10)->create();
 
-        foreach ($student as $student) {
+        foreach ($students as $student) {
             course::factory()->create([
                 'owned_degree' => $student->id
             ]);

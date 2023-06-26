@@ -1,5 +1,8 @@
 <?php
 
+use App\Models\course;
+use App\Models\student;
+use app\Models\User;
 use Illuminate\Support\Facades\Route;
 
 /*
