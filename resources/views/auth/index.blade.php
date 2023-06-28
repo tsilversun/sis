@@ -1,3 +1,5 @@
+<x-users-layout>
+
 <div class="container-fluid"  id="login-student">
             <form class="mx-auto" @submit="login_student($event)">
             <h4 class="text-center">
@@ -16,3 +18,4 @@
                 <button type="submit" class="btn btn-outline-success mt-5 fw-bold">Login</button>
               </form>
         </div>
+</x-users-layout>
